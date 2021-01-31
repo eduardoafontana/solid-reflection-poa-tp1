@@ -1,4 +1,4 @@
-package com.poatp1.backend.solid.singleResponsibility.violation;
+package com.poatp1.solid.singleResponsibility.violation;
 
 public class Ship {
 

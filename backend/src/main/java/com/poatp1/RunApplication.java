@@ -1,4 +1,4 @@
-package com.poatp1.backend;
+package com.poatp1;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

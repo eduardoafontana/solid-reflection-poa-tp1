@@ -1,4 +1,4 @@
-package com.poatp1.backend.solid.singleResponsibility.solution;
+package com.poatp1.solid.singleResponsibility.solution;
 
 public class FuelPump {
 
