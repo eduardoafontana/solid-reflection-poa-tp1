@@ -2,7 +2,7 @@ package com.solid.interfaceSegregation.violation;
 
 import java.lang.UnsupportedOperationException;
 
-public class JetSki extends WaterCraft {
+public class JetSki extends Watercraft {
 
     private boolean turboJetBoosterActivated;
 

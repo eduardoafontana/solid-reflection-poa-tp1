@@ -1,6 +1,6 @@
 package com.solid.interfaceSegregation.solution;
 
-public abstract class WaterCraft implements EngineSwitch {
+public abstract class Watercraft implements EngineSwitch {
     
     private boolean engineRunning;
 

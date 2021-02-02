@@ -11,7 +11,7 @@ public class ShipTypeTest {
 
 	@Test
 	public void testTypeShip_StateTravel() throws Exception {
-		WaterCraftTravel ship = new Ship();
+		WatercraftTravel ship = new Ship();
 		ship.changeState(StateTravel.CRUISING);
 
 		assertEquals(StateTravel.CRUISING, ship.getState());
@@ -19,7 +19,7 @@ public class ShipTypeTest {
 
 	@Test
 	public void testTypeShip_StateGeneral() throws Exception {
-		WaterCraftTravel ship = new Ship();
+		WatercraftTravel ship = new Ship();
 		ship.changeState(StateGeneral.MOORED);
 
 		assertEquals(StateGeneral.MOORED, ship.getState());
@@ -27,7 +27,7 @@ public class ShipTypeTest {
 
 	@Test
 	public void testTypeJetSki_StateGeneral() throws Exception {
-		WaterCraftSport jetSki = new JetSki();
+		WatercraftSport jetSki = new JetSki();
 		//jetSki.changeState(StateTravel.TOWING); //Syntax error, JetSki does not support travel states.
 		jetSki.changeState(StateGeneral.MOORED);
 

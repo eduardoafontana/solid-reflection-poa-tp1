@@ -1,6 +1,6 @@
 package com.solid.interfaceSegregation.solution;
 
-public class JetSki extends WaterCraft implements TurboJetBoosterSwitch {
+public class JetSki extends Watercraft implements TurboJetBoosterSwitch {
 
     private boolean turboJetBoosterActivated;
 

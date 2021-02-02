@@ -12,7 +12,7 @@ public class JetSkiPilot {
         watercraft.accelerate();
     }
 
-    public JetSki getWaterCraft() {
+    public JetSki getWatercraft() {
         return this.watercraft;
     }
 }

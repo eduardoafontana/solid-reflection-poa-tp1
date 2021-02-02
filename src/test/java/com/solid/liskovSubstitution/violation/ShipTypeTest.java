@@ -12,7 +12,7 @@ public class ShipTypeTest {
 
 	@Test
 	public void testTypeShip() throws Exception {
-		WaterCraft ship = new Ship();
+		Watercraft ship = new Ship();
 		ship.changeState(State.CRUISING);
 
 		assertEquals(State.CRUISING, ship.getState());
@@ -20,7 +20,7 @@ public class ShipTypeTest {
 
 	@Test
 	public void testTypeJetSki() throws Exception {
-		WaterCraft jetSki = new JetSki();
+		Watercraft jetSki = new JetSki();
 		jetSki.changeState(State.MOVING);
 
 		assertEquals(State.MOVING, jetSki.getState());
@@ -28,7 +28,7 @@ public class ShipTypeTest {
 
 	@Test
 	public void testTypeJetSkiCruising() throws Exception {
-		WaterCraft jetSki = new JetSki();
+		Watercraft jetSki = new JetSki();
 		
 		Exception exception = assertThrows(Exception.class, () -> {
 			jetSki.changeState(State.CRUISING);

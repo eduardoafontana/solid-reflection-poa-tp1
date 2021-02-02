@@ -1,6 +1,6 @@
 package com.solid.interfaceSegregation.violation;
 
-public abstract class WaterCraft implements Switches {
+public abstract class Watercraft implements Switches {
     
     private boolean engineRunning;
 

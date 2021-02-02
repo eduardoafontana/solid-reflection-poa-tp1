@@ -1,6 +1,6 @@
 package com.solid.interfaceSegregation.solution;
 
-public class Ship extends WaterCraft implements TurboPropellerSwitch, RadarSwitch {
+public class Ship extends Watercraft implements TurboPropellerSwitch, RadarSwitch {
 
     private boolean turboPropellerActivated;
     private boolean radarOn;

@@ -7,7 +7,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 @SpringBootTest
-public class WaterCraftSwitchesTest {
+public class WatercraftSwitchesTest {
 
 	@Test
 	public void testJetSkiSwitches_On() throws Exception {

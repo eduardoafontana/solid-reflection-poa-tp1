@@ -1,6 +1,6 @@
 package com.solid.interfaceSegregation.violation;
 
-public class Ship extends WaterCraft {
+public class Ship extends Watercraft {
 
     private boolean turboPropellerActivated;
     private boolean radarOn;

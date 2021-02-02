@@ -2,9 +2,9 @@ package com.solid.dependencyInversion.solution;
 
 public class Pilot {
 
-    private WaterCraft watercraft;
+    private Watercraft watercraft;
 
-    public Pilot(WaterCraft watercraft) {
+    public Pilot(Watercraft watercraft) {
         this.watercraft = watercraft;
     }
 
@@ -12,7 +12,7 @@ public class Pilot {
         watercraft.accelerate();
     }
 
-    public WaterCraft getWaterCraft() {
+    public Watercraft getWatercraft() {
         return this.watercraft;
     }
 }

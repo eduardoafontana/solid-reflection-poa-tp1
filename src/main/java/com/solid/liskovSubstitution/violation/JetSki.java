@@ -1,6 +1,6 @@
 package com.solid.liskovSubstitution.violation;
 
-public class JetSki extends WaterCraft {
+public class JetSki extends Watercraft {
 
     @Override
     public void changeState(State state) {

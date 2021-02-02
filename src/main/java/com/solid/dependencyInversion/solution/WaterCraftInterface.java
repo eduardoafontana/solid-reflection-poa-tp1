@@ -1,6 +1,6 @@
 package com.solid.dependencyInversion.solution;
 
-public interface WaterCraftInterface {
+public interface WatercraftInterface {
     
     public void accelerate();
 }

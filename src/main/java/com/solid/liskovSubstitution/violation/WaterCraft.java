@@ -1,6 +1,6 @@
 package com.solid.liskovSubstitution.violation;
 
-public abstract class WaterCraft {
+public abstract class Watercraft {
 
     private State state;
 

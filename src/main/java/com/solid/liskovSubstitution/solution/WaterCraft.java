@@ -1,6 +1,6 @@
 package com.solid.liskovSubstitution.solution;
 
-public abstract class WaterCraft {
+public abstract class Watercraft {
 
     private State state;
 

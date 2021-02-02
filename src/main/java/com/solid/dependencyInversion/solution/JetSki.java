@@ -1,6 +1,6 @@
 package com.solid.dependencyInversion.solution;
 
-public class JetSki extends WaterCraft {
+public class JetSki extends Watercraft {
 
     public JetSki(final int maxFuel) {
         super(maxFuel);

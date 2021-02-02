@@ -12,7 +12,7 @@ public class ShipPilot {
         watercraft.accelerate();
     }
 
-    public Ship getWaterCraft() {
+    public Ship getWatercraft() {
         return this.watercraft;
     }
 }

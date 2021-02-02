@@ -1,12 +1,12 @@
 package com.solid.dependencyInversion.solution;
 
-public abstract class WaterCraft implements WaterCraftInterface {
+public abstract class Watercraft implements WatercraftInterface {
     
     private final int maxFuel;
     private int remainingFuel;
     private int power;
 
-    public WaterCraft(final int maxFuel) {
+    public Watercraft(final int maxFuel) {
         this.maxFuel = maxFuel;
         remainingFuel = maxFuel;
     }

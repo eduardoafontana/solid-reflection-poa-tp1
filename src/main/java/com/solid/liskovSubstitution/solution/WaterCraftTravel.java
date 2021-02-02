@@ -1,6 +1,6 @@
 package com.solid.liskovSubstitution.solution;
 
-public abstract class WaterCraftTravel extends WaterCraft {
+public abstract class WatercraftTravel extends Watercraft {
 
     //The ship supports all types of movement states.
     public void changeState(final State state) {
