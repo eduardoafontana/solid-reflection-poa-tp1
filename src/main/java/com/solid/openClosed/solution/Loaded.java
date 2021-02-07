@@ -3,7 +3,7 @@ package com.solid.openClosed.solution;
 public class Loaded implements LoadingMode {
 
     private static final int POWER = 300;
-    private static final int SUSPENSION_HEIGHT = 30;
+    private static final int WATERLINE_HEIGHT = 30;
 
     @Override
     public int getPower() {
@@ -12,6 +12,6 @@ public class Loaded implements LoadingMode {
 
     @Override
     public int getWaterlineHeight() {
-        return SUSPENSION_HEIGHT;
+        return WATERLINE_HEIGHT;
     }
 }
